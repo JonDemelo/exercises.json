@@ -42,6 +42,14 @@ $ npm run build:psql -- <table name>
 
 This builds an `exercises-psql.sql` file which creates and inserts all exercises into a PostgreSQL database.
 
+## Generate `/exerciseImages`
+
+```shell
+$ npm run build:image
+```
+
+This builds an `/exerciseImages` directory which contains each exercise's images within one folder, labeled X-Y.jpg, where X is the exercise's index, and Y is the image's position in its own set; either 0 or 1.
+
 ## Maintainers
 
 [@olliejennings](https://github.com/OllieJennings)
